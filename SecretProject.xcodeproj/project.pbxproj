@@ -13,9 +13,20 @@
 		A2431B001EECF1D60096DC35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2431AFF1EECF1D60096DC35 /* Main.storyboard */; };
 		A2431B021EECF1D60096DC35 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2431B011EECF1D60096DC35 /* TableViewCell.swift */; };
 		A2431B051EECF1D60096DC35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2431B041EECF1D60096DC35 /* ViewController.swift */; };
-		A2431B071EECF1D60096DC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2431B061EECF1D60096DC35 /* Assets.xcassets */; };
 		A2431B0A1EECF1D60096DC35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2431B081EECF1D60096DC35 /* LaunchScreen.storyboard */; };
-		A2431B131EED0FB40096DC35 /* DesignableX in Resources */ = {isa = PBXBuildFile; fileRef = A2431B121EED0FB40096DC35 /* DesignableX */; };
+		A2431B211EED18350096DC35 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2431B171EED18350096DC35 /* UIButtonX.swift */; };
+		A2431B221EED18350096DC35 /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2431B181EED18350096DC35 /* UIImageViewX.swift */; };
+		A2431B231EED18350096DC35 /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2431B191EED18350096DC35 /* UILabelX.swift */; };
+		A2431B241EED18350096DC35 /* UISliderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2431B1A1EED18350096DC35 /* UISliderX.swift */; };
+		A2431B251EED18350096DC35 /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2431B1B1EED18350096DC35 /* UITextFieldX.swift */; };
+		A2431B261EED18350096DC35 /* UIViewAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2431B1C1EED18350096DC35 /* UIViewAnchorPoint.swift */; };
+		A2431B271EED18350096DC35 /* UIViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2431B1D1EED18350096DC35 /* UIViewControllerX.swift */; };
+		A2431B281EED18350096DC35 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2431B1E1EED18350096DC35 /* UIViewX.swift */; };
+		A2431B291EED18350096DC35 /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2431B1F1EED18350096DC35 /* UIViewXRadialGradient.swift */; };
+		A2431B2A1EED18350096DC35 /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2431B201EED18350096DC35 /* UIVisualEffectViewX.swift */; };
+		A2431B2C1EED18F50096DC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2431B2B1EED18F50096DC35 /* Assets.xcassets */; };
+		A2431B2F1EED193E0096DC35 /* FloatinActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2431B2E1EED193E0096DC35 /* FloatinActionButton.swift */; };
+		A2431B311EED1A910096DC35 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2431B301EED1A910096DC35 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +37,20 @@
 		A2431AFF1EECF1D60096DC35 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A2431B011EECF1D60096DC35 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		A2431B041EECF1D60096DC35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A2431B061EECF1D60096DC35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2431B091EECF1D60096DC35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A2431B0B1EECF1D60096DC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2431B121EED0FB40096DC35 /* DesignableX */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DesignableX; sourceTree = "<group>"; };
+		A2431B171EED18350096DC35 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		A2431B181EED18350096DC35 /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		A2431B191EED18350096DC35 /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		A2431B1A1EED18350096DC35 /* UISliderX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderX.swift; sourceTree = "<group>"; };
+		A2431B1B1EED18350096DC35 /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		A2431B1C1EED18350096DC35 /* UIViewAnchorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnchorPoint.swift; sourceTree = "<group>"; };
+		A2431B1D1EED18350096DC35 /* UIViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerX.swift; sourceTree = "<group>"; };
+		A2431B1E1EED18350096DC35 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		A2431B1F1EED18350096DC35 /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
+		A2431B201EED18350096DC35 /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
+		A2431B2B1EED18F50096DC35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SecretProject/Assets.xcassets; sourceTree = "<group>"; };
+		A2431B2E1EED193E0096DC35 /* FloatinActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatinActionButton.swift; sourceTree = "<group>"; };
+		A2431B301EED1A910096DC35 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				A2431AF31EECF1D60096DC35 /* SecretProject */,
+				A2431B2B1EED18F50096DC35 /* Assets.xcassets */,
 				A2431AF21EECF1D60096DC35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,7 +84,9 @@
 		A2431AF31EECF1D60096DC35 /* SecretProject */ = {
 			isa = PBXGroup;
 			children = (
-				A2431B111EED0E7A0096DC35 /* Resource */,
+				A2431B301EED1A910096DC35 /* Info.plist */,
+				A2431B2D1EED192A0096DC35 /* Resource */,
+				A2431B161EED18350096DC35 /* DesignableX */,
 				A2431AF61EECF1D60096DC35 /* Model */,
 				A2431AFE1EECF1D60096DC35 /* View */,
 				A2431B031EECF1D60096DC35 /* Controller */,
@@ -98,12 +122,27 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
-		A2431B111EED0E7A0096DC35 /* Resource */ = {
+		A2431B161EED18350096DC35 /* DesignableX */ = {
 			isa = PBXGroup;
 			children = (
-				A2431B121EED0FB40096DC35 /* DesignableX */,
-				A2431B061EECF1D60096DC35 /* Assets.xcassets */,
-				A2431B0B1EECF1D60096DC35 /* Info.plist */,
+				A2431B171EED18350096DC35 /* UIButtonX.swift */,
+				A2431B181EED18350096DC35 /* UIImageViewX.swift */,
+				A2431B191EED18350096DC35 /* UILabelX.swift */,
+				A2431B1A1EED18350096DC35 /* UISliderX.swift */,
+				A2431B1B1EED18350096DC35 /* UITextFieldX.swift */,
+				A2431B1C1EED18350096DC35 /* UIViewAnchorPoint.swift */,
+				A2431B1D1EED18350096DC35 /* UIViewControllerX.swift */,
+				A2431B1E1EED18350096DC35 /* UIViewX.swift */,
+				A2431B1F1EED18350096DC35 /* UIViewXRadialGradient.swift */,
+				A2431B201EED18350096DC35 /* UIVisualEffectViewX.swift */,
+			);
+			path = DesignableX;
+			sourceTree = "<group>";
+		};
+		A2431B2D1EED192A0096DC35 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A2431B2E1EED193E0096DC35 /* FloatinActionButton.swift */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -168,9 +207,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2431B311EED1A910096DC35 /* Info.plist in Resources */,
 				A2431B0A1EECF1D60096DC35 /* LaunchScreen.storyboard in Resources */,
-				A2431B131EED0FB40096DC35 /* DesignableX in Resources */,
-				A2431B071EECF1D60096DC35 /* Assets.xcassets in Resources */,
+				A2431B2C1EED18F50096DC35 /* Assets.xcassets in Resources */,
 				A2431B001EECF1D60096DC35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,9 +223,20 @@
 			files = (
 				A2431B051EECF1D60096DC35 /* ViewController.swift in Sources */,
 				A2431AF51EECF1D60096DC35 /* AppDelegate.swift in Sources */,
+				A2431B2A1EED18350096DC35 /* UIVisualEffectViewX.swift in Sources */,
+				A2431B211EED18350096DC35 /* UIButtonX.swift in Sources */,
+				A2431B271EED18350096DC35 /* UIViewControllerX.swift in Sources */,
+				A2431B241EED18350096DC35 /* UISliderX.swift in Sources */,
 				A2431B021EECF1D60096DC35 /* TableViewCell.swift in Sources */,
+				A2431B221EED18350096DC35 /* UIImageViewX.swift in Sources */,
+				A2431B261EED18350096DC35 /* UIViewAnchorPoint.swift in Sources */,
 				A2431AFA1EECF1D60096DC35 /* Data.swift in Sources */,
 				A2431AF81EECF1D60096DC35 /* Model.swift in Sources */,
+				A2431B2F1EED193E0096DC35 /* FloatinActionButton.swift in Sources */,
+				A2431B291EED18350096DC35 /* UIViewXRadialGradient.swift in Sources */,
+				A2431B281EED18350096DC35 /* UIViewX.swift in Sources */,
+				A2431B251EED18350096DC35 /* UITextFieldX.swift in Sources */,
+				A2431B231EED18350096DC35 /* UILabelX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

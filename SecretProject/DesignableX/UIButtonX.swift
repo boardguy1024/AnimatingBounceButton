@@ -91,14 +91,12 @@ class UIButtonX: UIButton {
     }
     
     // MARK: - Borders
-    
     @IBInspectable var cornerRadius: CGFloat = 0 {
         didSet {
             layer.cornerRadius = cornerRadius
             layer.masksToBounds = cornerRadius > 0
         }
     }
-    
     @IBInspectable var borderWidth: CGFloat = 0.0 {
         didSet {
             layer.borderWidth = borderWidth
@@ -112,7 +110,6 @@ class UIButtonX: UIButton {
     }
     
     // MARK: - Shadow
-    
     @IBInspectable public var shadowOpacity: CGFloat = 0
     @IBInspectable public var shadowColor: UIColor = UIColor.clear
     @IBInspectable public var shadowRadius: CGFloat = 0
