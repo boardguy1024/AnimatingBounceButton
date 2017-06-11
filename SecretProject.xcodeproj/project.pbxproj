@@ -60,8 +60,7 @@
 		A2431AF31EECF1D60096DC35 /* SecretProject */ = {
 			isa = PBXGroup;
 			children = (
-				A2431B061EECF1D60096DC35 /* Assets.xcassets */,
-				A2431B0B1EECF1D60096DC35 /* Info.plist */,
+				A2431B111EED0E7A0096DC35 /* Resource */,
 				A2431AF61EECF1D60096DC35 /* Model */,
 				A2431AFE1EECF1D60096DC35 /* View */,
 				A2431B031EECF1D60096DC35 /* Controller */,
@@ -95,6 +94,15 @@
 				A2431B041EECF1D60096DC35 /* ViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		A2431B111EED0E7A0096DC35 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A2431B061EECF1D60096DC35 /* Assets.xcassets */,
+				A2431B0B1EECF1D60096DC35 /* Info.plist */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +340,7 @@
 				A2431B101EECF1D60096DC35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
