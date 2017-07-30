@@ -94,6 +94,7 @@ class UIButtonX: UIButton {
     @IBInspectable var cornerRadius: CGFloat = 0 {
         didSet {
             layer.cornerRadius = cornerRadius
+            // cornerRadiusが0以上なら layer.masksToBoundsをTrue に設定
             layer.masksToBounds = cornerRadius > 0
         }
     }

@@ -4,6 +4,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var menuView: UIViewX!
     
     var tableData: [Model] = []
     
@@ -21,6 +22,27 @@ class ViewController: UIViewController {
             // tableData에 들어있는 내용으로 reLoad 된다.
             self.tableView.reloadData()
         }
+        //デフォルトとしてmenuViewのサイズを小さくしておく
+        closeMenu()
+    }
+    
+    @IBAction func menuBtnTapped(_ sender: FloatinActionButton) {
+        UIView.animate(withDuration: 0.3) { 
+            
+            if self.menuView.transform == .identity {
+                
+                self.closeMenu()
+                
+            } else {
+                self.menuView.transform = .identity
+            }
+        }
+       
+        
+    }
+    
+    func closeMenu() {
+        menuView.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
     }
 }
 
